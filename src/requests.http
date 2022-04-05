@@ -1,0 +1,10 @@
+POST https://localhost:5001/order
+content-type: application/json
+
+{
+    "id": "6eaf0295-5546-4f7a-946a-23cbf9cc8a60",
+    "items":{
+        "product-sku-01": 100,
+        "product-sky-02": 250
+    }
+}
